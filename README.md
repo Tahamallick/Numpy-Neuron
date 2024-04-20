@@ -8,11 +8,11 @@ This repository implements a basic neural network for binary classification from
 *Allows early stopping based on a user-defined loss threshold
 
 main.py takes the following arguments:
---data_path:
+*--data_path:
 Path to a CSV file containing training data. The file should have columns named 'age' and 'affordability' for features and a column named 'label' for labels (0 or 1).
---epochs:
+*--epochs:
 Number of epochs to train the network (default: 1000).
---loss_threshold:
+*--loss_threshold:
 Minimum acceptable loss value for early stopping (default: 0.01).
 
 **Output**
